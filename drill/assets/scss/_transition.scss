@@ -1,0 +1,8 @@
+@import '_prefix';
+
+@mixin translate-x($value) { 
+    @include prefix(transform, translateX($value), 'webkit' 'ms');
+ }
+ @mixin translate-y($value) { 
+    @include prefix(transform, translateY($value), 'webkit' 'ms');
+ }

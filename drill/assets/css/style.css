@@ -1,0 +1,32 @@
+/*@include fonction()*/
+body {
+  background: #000; }
+
+#box {
+  font-size: 20px;
+  width: 200px;
+  line-height: 50px;
+  text-align: center;
+  margin-left: -100px;
+  margin-top: -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 0;
+  border: 3px #fff solid;
+  transition: 2s; }
+  #box:hover {
+    background: #fff;
+    transform: translate(500px, 0);
+    /*transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2); 
+    -moz-transform: scale(2);*/ }
+  #box a {
+    text-decoration: none;
+    color: #fff;
+    transition: 2s; }
+    #box a:hover {
+      color: #000; }
+
+/*# sourceMappingURL=style.css.map */

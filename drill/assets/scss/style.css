@@ -1,0 +1,21 @@
+/*@include fonction()*/
+body {
+  background: #000; }
+
+#box {
+  font-size: 20px;
+  width: 200px;
+  line-height: 50px;
+  text-align: center;
+  margin-left: -100px;
+  margin-top: -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 0;
+  border: 3px #fff solid; }
+  #box a {
+    text-decoration: none;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
