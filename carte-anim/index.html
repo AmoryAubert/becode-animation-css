@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title></title>
+    <title>Carte animée</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
 </head>
 <body>
-<section id="box">
-    <div id="date">
-        <p>15 Aug</p>
-    </div>
-    <div id="img">
+<div id="box">
+    <div id="module" class="hover">
+      <div id="thumbnail">
+        <div id="date">
+          <div id="day">15</div>
+          <div id="month">Aug</div>
+        </div>
         <img src="assets/img/vagues.jpg" alt="wave image" />
+      </div>
+      <div id="content">
+        <div id="category">Photos</div>
+        <h1 id="title">Ocean</h1>
+        <h2 id="sub_title">The power of the Wave</h2>
+        <p id="description">
+            La musique est la vapeur de l'art. Elle est à la poésie ce que la rêverie est à la pensée,
+            ce que le fluide est au liquide, ce que l'océan des nuées est à l'océan des ondes.
+        </p>
+        <div id="meta">
+          <span id="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
+          <span id="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span>
+        </div>
+      </div>
     </div>
-    <div id="content">
-        <div id="t-img">
-            <p>PHOTOS</p>
-        </div>
-        <div id="t-content">
-            <h1>OCEAN</h1>
-            <h2>The power of the Wave</h2>
-        </div>
-        <div id="h-content">
-            <p>
-                La musique est la vapeur de l'art. Elle est à la poésie ce que la rêverie est à la pensée,
-                ce que le fluide est au liquide, ce que l'océan des nuées est à l'océan des ondes.
-            </p>
-        </div>
-        <div id="f-content">
-            <ul>
-                <li>6 mins ago</li>
-                <li>30 comments</li>
-            </ul>
-        </div>
-    </div>
-</section>
+</div>
+
 </body>
 </html>
