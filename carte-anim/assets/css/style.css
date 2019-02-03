@@ -90,6 +90,9 @@ body {
         color: #999; }
         body #box #content #meta #timestamp {
           margin: 0 16px 0 0; }
+          body #box #content #meta #timestamp i {
+            height: 10px;
+            color: #000; }
         body #box #content #meta a {
           color: #999;
           text-decoration: none; }
