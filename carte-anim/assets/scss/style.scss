@@ -100,7 +100,7 @@ body{
             #description{
                 visibility: hidden;
                 height: 0;
-                opacity: 0; 
+                opacity: 0;
                 color: #666;
                 font-size: 14px;
                 line-height: 1.8em;
@@ -111,10 +111,6 @@ body{
                 color: #999;
                 #timestamp{
                     margin: 0 16px 0 0;
-                    i{
-                        height: 10px;
-                        color: $noir;
-                    }
                 }
                 a{
                     color: #999;
